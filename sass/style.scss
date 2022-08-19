@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2? family= Rubik:wght@400;514 & display=swap");
+
+//Import das variaveis
+@import "./common/variable.scss";
+
+//Import do common
+@import "./common/common.scss";
+
+//Import Home
+@import "./pages/home.scss";
+
+//Import Falcon 9
+@import "./pages/falcon9.scss";
+
+//Import Human Space Flight
+@import "./pages/humanflight.scss";
