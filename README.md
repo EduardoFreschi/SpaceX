@@ -1,2 +1,3 @@
 # SpaceX
-Página criada com bootstrap
+
+## <p align="center"> Projeto criado utilizando Bootstrap e Sass</p>
