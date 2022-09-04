@@ -6,6 +6,11 @@ $table-item-color: #d8d8d8;
 
 $padding: 20px 0px;
 
+@mixin title($font-size, $font-weight) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
 * {
   color: white;
 }

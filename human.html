@@ -20,22 +20,21 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- link favicon -->
-    <link
-      rel="shortcut icon"
-      href="./sass/images/favicon.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
 
     <title>Human Space Flight</title>
   </head>
   <body>
-    <div class="container-fluid container00">
+    <div class="container-fluid container00 container08">
       <div class="container">
         <header class="header">
-          <nav class="navbar navbar-expand-lg bg-light">
+          <nav class="navbar navbar-expand-lg bg-transparent navbar-dark pt-4">
             <div class="container-fluid">
-              <a class="navbar-brand" href="home.html"
-                ><img src=".images/favicon.png" alt="Logo-obc" width="200px"
+              <a class="navbar-brand" href="./index.html"
+                ><img
+                  src="./images/logo-obc-2021-darkbg.png"
+                  alt="Logo-obc"
+                  class="logoPc"
               /></a>
               <button
                 class="navbar-toggler"
@@ -46,20 +45,20 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon link"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a
-                      class="nav-link"
+                      class="nav-link active"
                       aria-current="page"
                       href="./falcon9.html"
                       >FALCON 9</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./human.html"
+                    <a class="nav-link active" href="./human.html"
                       >HUMAN SPACE FLIGHT</a
                     >
                   </li>
@@ -69,12 +68,120 @@
           </nav>
         </header>
       </div>
-
-      <div class="container-fluid">
-        <h1>HUMAN SPACE FLIGHT</h1>
-        <p>FAZENDO A VIDA MULTIPLANETÁRIA</p>
+      <div class="human-content text-center">
+        <p class="h1 title-human">HUMAN SPACEFLIGHT</p>
+        <p class="h4 subtile-human">FAZENDO A VIDA MULTIPLANETÁRIA</p>
+        <img
+          src="./images/humanFlight/arrowDown.gif"
+          alt="arrow"
+          class="arrow mt-4"
+        />
       </div>
     </div>
+
+    <div class="description-earth text-center">
+      <p data-aos="flip-right" data-aos-duration="1500">
+        SpaceX também oferece voos cormeciais para orbita terrestre e lunar.
+        Para começar a planejar a sua jornada, por favor contate-nos por
+        <a href="">onebitcode@gmail.com</a>
+      </p>
+    </div>
+
+    <!-- inicio div eart -->
+    <div class="container-fluid container00 container09">
+      <div class="content-earth" data-aos="fade-right" data-aos-duration="1500">
+        <p>MISSÃO</p>
+        <p class="h2 title-earth">ORBITA DA TERRA</p>
+        <p>EXPERIMENTE O PLANETA AZUL A 300KM DE ALTURA</p>
+        <button class="btn btn-outline-light btn-lg mt-3" id="button">
+          EXPLORAR
+        </button>
+      </div>
+    </div>
+    <!-- fim div earth -->
+
+    <!-- Inicio div estação -->
+    <div class="container-fluid container00 container10">
+      <div class="stacion-content" data-aos="fade-up" data-aos-duration="1500">
+        <p>MISSÃO</p>
+        <p class="h1 title-stacion">ESTAÇÃO ESPACIAL</p>
+        <p>TRANSPORTANDO HUMANOS PARA O LABORATÓRIO</p>
+        <button class="btn btn-outline-light btn-lg mt-3" id="button">
+          EXPLORAR
+        </button>
+      </div>
+    </div>
+    <!-- fim div estação -->
+
+    <!-- inicio div moon -->
+    <div class="container-fluid container00 container11">
+      <div class="moon-content" data-aos="zoom-in" data-aos-duration="1000">
+        <p>MISSÃO</p>
+        <p class="h1 title-moon">LUA</p>
+        <p>RETORNANDO HUMANDOS PARA A NOSSA LUA VIZINHA</p>
+        <button class="btn btn-outline-light btn-lg mt-3" id="button">
+          EXPLORAR
+        </button>
+      </div>
+    </div>
+    <!-- fim div moon -->
+
+    <!-- inicio div marte -->
+    <div class="container-fluid container00 container12">
+      <div class="marte-content" data-aos="flip-right" data-aos-duration="1000">
+        <div>
+          <p>MISSÃO</p>
+          <p class="h1 title-marte">MARTE E ALÉM</p>
+          <p>O CAMINHOS PARA TORNAR A HUMANIDADE MULTIPLANETÁRIA</p>
+          <button class="btn btn-outline-light btn-lg mt-3" id="button">
+            EXPLORAR
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- fim div marte -->
+
+    <div class="container-fluid text-center downloadDesc">
+      <p data-aos="fade-right" data-aos-duration="1500">
+        Para mais informações sobre os serviçoes entre em contato com
+        <a href="mailto:eduardo.f.freschi@gmail.com" target="_blank"
+          >eduardo.f.freschi@gmail.com</a
+        >
+      </p>
+
+      <button
+        data-aos="flip-right"
+        data-aos-duration="1500"
+        class="btn btn-outline-light p-3"
+        type="button"
+      >
+        BAIXAR GUIA DO USUÁRIO
+      </button>
+      <button
+        data-aos="flip-up"
+        data-aos-duration="1500"
+        class="btn btn-outline-light p-3"
+        type="button"
+      >
+        CAPACIDADES E SERVIÇOS
+      </button>
+    </div>
+
+    <footer class="container-fluid footer">
+      <span>Eduardo Freschi &copy; 2022</span>
+      <a href="https://www.instagram.com/duhfreschi/" target="_blank"
+        >Instagram</a
+      >
+      <a href="https://www.facebook.com/eduardo.freschi" target="_blank"
+        >Facebook</a
+      >
+      <a
+        href="https://www.linkedin.com/in/eduardo-freschi-9b154715b/"
+        target="_blank"
+        >Linkedin</a
+      >
+    </footer>
+
     <!-- Script Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
@@ -87,5 +194,7 @@
     <script>
       AOS.init();
     </script>
+
+    <img src="" alt="" />
   </body>
 </html>

@@ -38,9 +38,23 @@
   border-radius: 5px;
 }
 
+.downloadDesc {
+  padding-top: 15rem;
+  background-color: black;
+  height: 85vh;
+  a {
+    text-decoration: none;
+    color: $hover-color;
+  }
+  button {
+    margin-right: 10px;
+    border: 2px solid white;
+  }
+}
+
 .footer {
   background-color: black;
-  min-height: 110px;
+  min-height: 15vh;
   font-size: 12px;
   display: flex;
   align-items: center;
@@ -70,7 +84,6 @@
     width: 180px;
   }
   .footer {
-    font-size: 10px;
   }
 }
 

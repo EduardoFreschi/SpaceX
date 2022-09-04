@@ -1,1 +1,170 @@
+.container00 {
+  &.container08 {
+    background-image: url(../../images/humanFlight/01.jpg);
+  }
+  &.container09 {
+    background-image: url(../../images/humanFlight/02.jpg);
+  }
+  &.container10 {
+    background-image: url(../../images/humanFlight/03.jpg);
+  }
+  &.container11 {
+    background-image: url(../../images/humanFlight/04.jpg);
+  }
+  &.container12 {
+    background-image: url(../../images/humanFlight/05.jpg);
+  }
+}
 
+.human-content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .title-human {
+    font-size: 120px;
+  }
+  .subtile-human {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  img {
+    width: 130px;
+  }
+}
+
+.description-earth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+  background-color: black;
+  p {
+    color: $table-item-color;
+    width: 70%;
+    font-size: 20px;
+    a {
+      color: $hover-color;
+      text-decoration: none;
+    }
+    a:hover {
+      color: blue;
+    }
+  }
+}
+
+.content-earth {
+  margin-left: 55%;
+  padding-top: 15%;
+  .title-earth {
+    @include title(4rem, 700);
+  }
+}
+
+.stacion-content {
+  padding-top: 15%;
+  margin-left: 5%;
+  .title-stacion {
+    @include title(4rem, 700);
+  }
+}
+
+.moon-content {
+  margin-left: 55%;
+  padding-top: 15%;
+  margin-right: 100px;
+  .title-moon {
+    @include title(4rem, 700);
+  }
+}
+
+.marte-content {
+  padding-left: 5%;
+  padding-top: 15%;
+  .title-marte {
+    @include title(4rem, 700);
+  }
+}
+
+@media (max-width: 1080px) {
+  .content-earth {
+    margin-left: 55%;
+    width: auto;
+  }
+  .moon-content {
+    margin-left: 50%;
+  }
+  .marte-content {
+    margin-right: 55%;
+  }
+}
+
+@media (max-width: 720px) {
+  .human-content {
+    .title-human {
+      font-size: 90px;
+    }
+  }
+  .description-earth {
+    p {
+      font-size: 15px;
+    }
+  }
+  .content-earth {
+    .title-earth {
+      font-size: 3rem;
+    }
+  }
+  .stacion-content {
+    .title-stacion {
+      font-size: 3rem;
+    }
+  }
+
+  .moon-content {
+    .title-moon {
+      font-size: 3rem;
+    }
+  }
+
+  .marte-content {
+    .title-marte {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .human-content {
+    .title-human {
+      font-size: 50px;
+    }
+  }
+  .content-earth {
+    width: auto;
+  }
+}
+
+@media (max-width: 460px) {
+  .content-earth {
+    margin-left: 30%;
+  }
+  .content-earth {
+    text-align: center;
+  }
+
+  .stacion-content {
+    text-align: center;
+  }
+
+  .moon-content {
+    text-align: center;
+  }
+
+  .marte-content {
+    text-align: center;
+  }
+}
